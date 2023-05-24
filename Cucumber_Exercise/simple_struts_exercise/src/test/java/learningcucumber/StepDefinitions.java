@@ -72,6 +72,6 @@ class IsItValid {
 
     static String isAgeValid(String age) {
         //return a.equals("") ? "False" : "True";
-        return "True";
+        return age.matches("[0-9]+") ? "True" : "False";
     }
 }
