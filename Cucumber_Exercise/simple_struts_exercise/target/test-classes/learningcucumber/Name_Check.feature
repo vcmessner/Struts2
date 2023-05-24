@@ -10,5 +10,5 @@ Check if the name is a valid input
         | input_name     | answer |
         | Algo           | True   |
         | Sunday         | True   |
-        | Sunday11       | False   |
+        | Sunday11       | False  |
         |                | False  |

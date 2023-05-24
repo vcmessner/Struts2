@@ -1,5 +1,5 @@
-Feature: Is Age from a Minor?
-Check if the Age corresponts a Minor input
+Feature: Is Legal Age?
+Check if the Age corresponts a Leagal Age input
 
     Scenario Outline: Age is valid
         Given Age is a valid "<number>"

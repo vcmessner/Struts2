@@ -4,6 +4,18 @@ import com.opensymphony.xwork2.ActionSupport;
 public class HelloWorldAction extends ActionSupport {
     private String name;
     private String age;
+    public static final int LEGAL_AGE = 18;
+
+    public HelloWorldAction(String name, String age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public HelloWorldAction() {
+        
+    }
+
+
 
     public String getName() {
         return name;
@@ -20,23 +32,31 @@ public class HelloWorldAction extends ActionSupport {
         this.age = age;
         }
 
-    private boolean saveAge() throws Exception {
+    public boolean saveAge() throws Exception {
         if(isAgePropertyInvalid()) {
             addActionError("Please enter a valid Age!");
             return false;
         }
+        int myage = Integer.parseInt(age);
+        if(myage<LEGAL_AGE){
+            addActionError("Minors are not allowed!");
+            return false;
+        }
         return true;
+        
         }
 
-    private boolean saveUsername() throws Exception {
-    if(isNamePropertyInvalid()) {
-        addActionError(getText("error.enter.message"));
-        //addActionError("Please enter your name!");
-        return false;        
-    }
-    return true;
-    
-    }
+    public boolean saveUsername() throws Exception {
+        System.out.println("entrei1");
+        if(isNamePropertyInvalid()) {
+            addActionError("Invalid Name!");
+            System.out.println("entrei2");
+            return false;        
+        }
+        System.out.println("entrei3");
+        return true;
+        
+        }
 
     public String SaveOnSubmit() throws Exception{
         if(saveAge() && saveUsername()){
