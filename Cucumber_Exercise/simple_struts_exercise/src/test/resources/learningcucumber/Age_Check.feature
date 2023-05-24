@@ -1,4 +1,4 @@
-    Feature: Is Age valid?
+Feature: Is Age valid?
 Check if the Age is a valid input
 
     Scenario Outline: Age is valid

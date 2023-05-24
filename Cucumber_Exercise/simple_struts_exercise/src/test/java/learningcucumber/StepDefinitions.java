@@ -29,10 +29,9 @@ public class StepDefinitions {
     }
 
 
-
+    // Age_Check
     private String Age_is_Valid;
     private String Age;
-    // Age_Check
 
     @Given("Age is {string}")
     public void age_is(String age) {
@@ -49,18 +48,28 @@ public class StepDefinitions {
         assertEquals(Answer, Age_is_Valid);
     }
 
-    // Default
+    // Is_Minor
+    private String geq18;
 
-    @Given("an example scenario")
-    public void anExampleScenario() {
+    
+
+    @When("i ask whether is geq 18")
+    public void is_geq18() {
+        geq18 = IsItValid.isAgeValid(Age);
+        if(geq18.equals("True")){
+            int myage = Integer.parseInt(this.Age);
+            if(myage>=18){
+                geq18="True";
+            }
+            else{
+                geq18="False";
+            }
+        }
     }
 
-    @When("all step definitions are implemented")
-    public void allStepDefinitionsAreImplemented() {
-    }
-
-    @Then("the scenario passes")
-    public void theScenarioPasses() {
+    @Then("answer {string}")
+    public void isMinor(String Answer) {
+        assertEquals(Answer,geq18);
     }
 }
 
