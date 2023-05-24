@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: learningcucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.332 s - in learningcucumber.RunCucumberTest
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.52 s <<< FAILURE! - in learningcucumber.RunCucumberTest
+Examples.Example #1.3  Time elapsed: 0.074 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <False> but was: <True>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at learningcucumber.StepDefinitions.it_should_answer(StepDefinitions.java:49)
+	at ✽.it should answer "False"(classpath:learningcucumber/Age_Check.feature:7)
+
+Examples.Example #1.6  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <False> but was: <True>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at learningcucumber.StepDefinitions.it_should_answer(StepDefinitions.java:49)
+	at ✽.it should answer "False"(classpath:learningcucumber/Age_Check.feature:7)
+
+Examples.Example #1.7  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <False> but was: <True>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at learningcucumber.StepDefinitions.it_should_answer(StepDefinitions.java:49)
+	at ✽.it should answer "False"(classpath:learningcucumber/Age_Check.feature:7)
+

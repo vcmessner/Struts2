@@ -3,7 +3,7 @@ Check if the name is a valid input
 
     Scenario Outline: name is valid
         Given name is "<input_name>"
-        When I ask whether is valid
+        When I ask whether name is valid
         Then it should reply "<answer>"
 
         Examples:
