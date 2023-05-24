@@ -2,8 +2,8 @@ Feature: Is Age from a Minor?
 Check if the Age corresponts a Minor input
 
     Scenario Outline: Age is valid
-        Given Age is "<number>"
-        When i ask whether is geq 18
+        Given Age is a valid "<number>"
+        When i ask whether is legal
         Then answer "<answer>"
 
         Examples:
