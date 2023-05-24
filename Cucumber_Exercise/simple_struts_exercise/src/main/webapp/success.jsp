@@ -13,5 +13,9 @@ pageEncoding="ISO-8859-1"%>
 <p>
 Your name is: <h3><s:property value="name" /></h3>
 </p>
+
+<p>
+    Your Age is: <h3><s:property value="age" /></h3>
+</p>
 </body>
 </html>

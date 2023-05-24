@@ -9,7 +9,7 @@
 <package name="basic-struts2" extends="struts-default">
 
 
-<action name="helloWorldAction" method="saveUsername"
+<action name="helloWorldAction" method="SaveOnSubmit"
 class="com.itclinical.simple_struts_exercise.HelloWorldAction">
 <result name="input">/index.jsp</result>
 <result name="success">/success.jsp</result>
