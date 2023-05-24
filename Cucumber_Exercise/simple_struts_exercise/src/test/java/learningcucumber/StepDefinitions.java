@@ -76,7 +76,7 @@ public class StepDefinitions {
 
 class IsItValid {
     static String isNameValid(String name) {
-        return name.equals("") ? "False" : "True";
+        return name.matches("[a-zA-Z]+") ? "True" : "False";
     }
 
     static String isAgeValid(String age) {

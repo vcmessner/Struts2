@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="learningcucumber.RunCucumberTest" time="0.459" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="learningcucumber.RunCucumberTest" time="0.446" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Harukatsu\AppData\Local\Temp\surefire11613473390233909936\surefirebooter-20230524065042696_3.jar C:\Users\Harukatsu\AppData\Local\Temp\surefire11613473390233909936 2023-05-24T06-50-42_373-jvmRun1 surefire-20230524065042696_1tmp surefire_0-20230524065042696_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Harukatsu\AppData\Local\Temp\surefire4285627779497725426\surefirebooter-20230524070109069_3.jar C:\Users\Harukatsu\AppData\Local\Temp\surefire4285627779497725426 2023-05-24T07-01-08_769-jvmRun1 surefire-20230524070109069_1tmp surefire_0-20230524070109069_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Harukatsu\Workspace\Learning\Work\Struts2\Cucumber_Exercise\simple_struts_exercise\target\test-classes;C:\Users\Harukatsu\Workspace\Learning\Work\Struts2\Cucumber_Exercise\simple_struts_exercise\target\classes;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-java\7.12.0\cucumber-java-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-core\7.12.0\cucumber-core-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-gherkin\7.12.0\cucumber-gherkin-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.12.0\cucumber-gherkin-messages-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\datatable\7.12.0\datatable-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-plugin\7.12.0\cucumber-plugin-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\docstring\7.12.0\docstring-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\html-formatter\20.3.0\html-formatter-20.3.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\Harukatsu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Harukatsu\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.12.0\cucumber-junit-platform-engine-7.12.0.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-suite\1.9.3\junit-platform-suite-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.3\junit-platform-suite-api-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.3\junit-platform-suite-engine-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.3\junit-platform-suite-commons-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.3\junit-platform-launcher-1.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Harukatsu\.m2\repository\org\apache\struts\struts2-core\6.1.2\struts2-core-6.1.2.jar;C:\Users\Harukatsu\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\Harukatsu\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\Harukatsu\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\Harukatsu\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\Harukatsu\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar;C:\Users\Harukatsu\.m2\repository\commons-io\commons-io\2.9.0\commons-io-2.9.0.jar;C:\Users\Harukatsu\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Harukatsu\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Harukatsu\AppData\Local\Temp\surefire11613473390233909936\surefirebooter-20230524065042696_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Harukatsu\AppData\Local\Temp\surefire4285627779497725426\surefirebooter-20230524070109069_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Example #1.1" classname="Examples" time="0.108">
+  <testcase name="Example #1.1" classname="Examples" time="0.11">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:11&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"18"&amp#27;[0m                     &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -73,7 +73,7 @@ Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:1
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32manswer &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m           &amp#27;[90m# learningcucumber.StepDefinitions.isMinor(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.1" classname="Examples" time="0.006">
+  <testcase name="Example #1.1" classname="Examples" time="0.007">
     <system-out><![CDATA[
 Scenario Outline: name is valid    &amp#27;[90m# learningcucumber/Name_Check.feature:11&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mname is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Algo"&amp#27;[0m             &amp#27;[90m# learningcucumber.StepDefinitions.name_is(java.lang.String)&amp#27;[0m
@@ -81,7 +81,7 @@ Scenario Outline: name is valid    &amp#27;[90m# learningcucumber/Name_Check.fea
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should reply &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m      &amp#27;[90m# learningcucumber.StepDefinitions.it_should_reply(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="0.008">
+  <testcase name="Example #1.2" classname="Examples" time="0.007">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:12&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m                      &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -89,7 +89,7 @@ Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should answer &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.it_should_answer(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.2" classname="Examples" time="0.016">
+  <testcase name="Example #1.2" classname="Examples" time="0.006">
     <system-out><![CDATA[
 Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:12&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"5"&amp#27;[0m             &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -105,7 +105,7 @@ Scenario Outline: name is valid    &amp#27;[90m# learningcucumber/Name_Check.fea
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should reply &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m      &amp#27;[90m# learningcucumber.StepDefinitions.it_should_reply(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="0.011">
+  <testcase name="Example #1.3" classname="Examples" time="0.009">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                       &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -113,7 +113,7 @@ Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should answer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m         &amp#27;[90m# learningcucumber.StepDefinitions.it_should_answer(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="0.008">
+  <testcase name="Example #1.3" classname="Examples" time="0.006">
     <system-out><![CDATA[
 Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m              &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -121,15 +121,15 @@ Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:1
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32manswer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.isMinor(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.3" classname="Examples" time="0.006">
+  <testcase name="Example #1.3" classname="Examples" time="0.004">
     <system-out><![CDATA[
 Scenario Outline: name is valid    &amp#27;[90m# learningcucumber/Name_Check.feature:13&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mname is &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                 &amp#27;[90m# learningcucumber.StepDefinitions.name_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mname is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sunday11"&amp#27;[0m         &amp#27;[90m# learningcucumber.StepDefinitions.name_is(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether name is valid&amp#27;[0m &amp#27;[90m# learningcucumber.StepDefinitions.is_valid()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should reply &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m     &amp#27;[90m# learningcucumber.StepDefinitions.it_should_reply(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.4" classname="Examples" time="0.006">
+  <testcase name="Example #1.4" classname="Examples" time="0.01">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:14&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"1000"&amp#27;[0m                   &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -145,7 +145,15 @@ Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:1
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32manswer &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m           &amp#27;[90m# learningcucumber.StepDefinitions.isMinor(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="0.009">
+  <testcase name="Example #1.4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: name is valid    &amp#27;[90m# learningcucumber/Name_Check.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mname is &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                 &amp#27;[90m# learningcucumber.StepDefinitions.name_is(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask whether name is valid&amp#27;[0m &amp#27;[90m# learningcucumber.StepDefinitions.is_valid()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should reply &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m     &amp#27;[90m# learningcucumber.StepDefinitions.it_should_reply(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1.5" classname="Examples" time="0.008">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:15&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m                      &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -153,7 +161,7 @@ Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should answer &amp#27;[0m&amp#27;[32m&amp#27;[1m"True"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.it_should_answer(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.5" classname="Examples" time="0.005">
+  <testcase name="Example #1.5" classname="Examples" time="0.008">
     <system-out><![CDATA[
 Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:15&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"0"&amp#27;[0m             &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -161,7 +169,7 @@ Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:1
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32manswer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.isMinor(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.6" classname="Examples" time="0.009">
+  <testcase name="Example #1.6" classname="Examples" time="0.008">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:16&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"algo"&amp#27;[0m                   &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -169,7 +177,7 @@ Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should answer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m         &amp#27;[90m# learningcucumber.StepDefinitions.it_should_answer(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.6" classname="Examples" time="0.006">
+  <testcase name="Example #1.6" classname="Examples" time="0.007">
     <system-out><![CDATA[
 Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:16&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"algo"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -177,7 +185,7 @@ Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:1
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32manswer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m          &amp#27;[90m# learningcucumber.StepDefinitions.isMinor(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.7" classname="Examples" time="0.01">
+  <testcase name="Example #1.7" classname="Examples" time="0.007">
     <system-out><![CDATA[
 Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check.feature:17&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"-1"&amp#27;[0m                     &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
@@ -185,7 +193,7 @@ Scenario Outline: Age is valid          &amp#27;[90m# learningcucumber/Age_Check
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mit should answer &amp#27;[0m&amp#27;[32m&amp#27;[1m"False"&amp#27;[0m         &amp#27;[90m# learningcucumber.StepDefinitions.it_should_answer(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1.7" classname="Examples" time="0.006">
+  <testcase name="Example #1.7" classname="Examples" time="0.007">
     <system-out><![CDATA[
 Scenario Outline: Age is valid &amp#27;[90m# learningcucumber/Is_Minor.feature:17&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAge is &amp#27;[0m&amp#27;[32m&amp#27;[1m"-1"&amp#27;[0m            &amp#27;[90m# learningcucumber.StepDefinitions.age_is(java.lang.String)&amp#27;[0m
