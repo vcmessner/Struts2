@@ -21,7 +21,6 @@ public class ValidateInputAndAge {
     @Given("user submits name {string} and date {string}")
     public void userSubmitsInput(String name, String date) throws ParseException {
         name = myAux.trucateName(name);
-        System.out.println(name);
         myAction = new HelloWorldAction(name,date);
     }
 

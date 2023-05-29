@@ -104,8 +104,7 @@ public class HelloWorldAction extends ActionSupport {
         catch (java.text.ParseException e) {
             return false;
         }
-    }
-    
+    }    
 
     public String getName() {
         return name;
@@ -123,8 +122,6 @@ public class HelloWorldAction extends ActionSupport {
         this.date = date;
     }
 
-    
-
     public String getAge() {
         return age;
     }
@@ -140,6 +137,4 @@ public class HelloWorldAction extends ActionSupport {
     protected boolean isDatePropertyInvalid() {
         return date == null || date.isEmpty() || (!isValidDateFormat(date));
     }
-
-
 }
